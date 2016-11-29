@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# CAP0805
+#
+DEF CAP0805 C 0 40 Y Y 1 F N
+F0 "C" 0 -100 60 H V C CNN
+F1 "CAP0805" 0 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  -25 -50  -25 50 N
+P 2 0 1 0  25 50  25 -50 N
+X ~ 1 -225 0 200 R 4 50 1 1 I
+X ~ 2 225 0 200 L 4 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
